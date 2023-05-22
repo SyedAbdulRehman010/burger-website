@@ -1,0 +1,135 @@
+body {
+  background-color: #000000;
+  color: white;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.logo-elements {
+  display: flex;
+}
+.company-logo-name {
+  font-size: 70px;
+  margin-left: 40px;
+  color: #e2293f;
+  font-style: italic;
+}
+.upper-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+.nav-elements {
+  margin: 5px 25px;
+  /* color: #e2293f; */
+  color: darkgray;
+}
+.nav-elements:hover {
+  margin: 5px 25px;
+  color: #e2293f;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 100px;
+}
+
+.left-content {
+  width: 30%;
+}
+.left-content h1 {
+  color: white;
+}
+.left-content p {
+  color: lightgray;
+}
+.right-content {
+  width: 50%;
+  height: 400px;
+  background-image: url("/images/burger.jpg");
+  background-size: cover;
+}
+.burger-heading {
+  color: #e2293f;
+}
+.btn {
+  background-color: #e2293f;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.lower-content {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.burger-main {
+  display: flex;
+}
+.burger-card {
+  background-color: #2e2b2b;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.burger-card-image {
+  width: 80%;
+  height: 80%;
+  margin: 0px 20px;
+  margin-top: -90px;
+}
+.burger-card-text {
+  color: white;
+  margin-left: 20px;
+}
+.lower-content-text {
+  width: 30%;
+}
+.q {
+  color: darkgray;
+}
+.bottom {
+  /* background-color: #2e2b2b; */
+
+  height: 50px;
+  border-top: 2px solid #2e2b2b;
+  margin-top: 30px;
+}
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  margin-top: 10px;
+  height: 100%;
+  width: 70%;
+}
+.bottom-child {
+  flex-basis: 25%;
+  height: 100%;
+  text-align: center;
+}
+.bottom-child:hover {
+  background-color: #e2293f;
+  cursor: pointer;
+  height: 100%;
+}
+/* body {
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+} */
